@@ -1,6 +1,6 @@
 
 import { useParams } from "react-router-dom";
-import { usePost } from "../hooks"
+// import { usePost } from "../hooks"
 import { FullPost } from "../components/FullPost";
 
 export const Post =  ()=>{

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Avatar, AvatarAppBar } from "./PostCard";
+import { AvatarAppBar } from "./PostCard";
 
 export function Appbar() {
     return <div className="border-b-2 text-white bg-slate-800 flex justify-between px-10 py-4 ">

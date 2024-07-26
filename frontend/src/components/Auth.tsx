@@ -1,7 +1,7 @@
-import { ChangeEvent, ChangeEventHandler, useState } from "react";
+import { ChangeEvent, useState } from "react";
 import { Link ,useNavigate} from "react-router-dom";
-import { signinInput, signupInput } from "sahilkumar_common_file";
-import Signin from "../pages/Signin";
+import { signupInput } from "sahilkumar_common_file";
+
 import axios from "axios";
 import { BACKEND_URL } from "../config";
 

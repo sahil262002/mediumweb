@@ -1,6 +1,6 @@
 import { usePost } from "../hooks";
 import { Appbar } from "./Appbar";
-import { Avatar, AvatarAppBar } from "./PostCard";
+import {  AvatarAppBar } from "./PostCard";
 import { PostSkeleton } from "./Skeleton";
 
 
