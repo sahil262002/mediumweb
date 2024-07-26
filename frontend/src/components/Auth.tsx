@@ -26,7 +26,7 @@ export function Auth({ type }: { type: "signup" | "signin" }) {
     }
     return <div className=" h-screen flex justify-center flex-col ">
 
-        <div className="flex flex-col justify-center  mx-20 h-4/6 shadow-xl shadow-slate-400 rounded-2xl ">
+       
 
             <div className="flex justify-center ">
                 <div>
@@ -67,7 +67,7 @@ export function Auth({ type }: { type: "signup" | "signin" }) {
                         {type === "signin" ? "Sign in" : "Sign up"}</button>
                 </div>
             </div>
-        </div>
+        
 
     </div>
 }
