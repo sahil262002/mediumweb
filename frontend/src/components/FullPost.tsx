@@ -32,8 +32,6 @@ export function FullPost({ id }: { id: string }) {
     return <div>
         <Appbar />
         <div className="flex justify-center">
-
-
             <div className=" grid grid-cols-12 px-40 w-full pt-16">
 
                 <div className="col-span-8 ">
